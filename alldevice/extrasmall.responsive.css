@@ -1,0 +1,81 @@
+@media (max-width: 575.98px) {
+    :root {
+        --primary_background_color: #1C1E53;
+        --secondary_color: #2405F2;
+        --praimary_font_color: #282938;
+        --yellow_color: #FCD980;
+        --priamary_font: "Poppins", sans-serif;
+    }
+
+    .workleft {
+        margin-bottom: 20px;
+    }
+
+    .workleft__title {
+        font-size: 40px;
+        line-height: 5px;
+    }
+
+    .workleft__link {
+        font-size: 14px;
+    }
+
+    .items2 {
+        margin: 10px 0;
+    }
+
+    .Featurestop__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .CustomXS {
+        text-align: center;
+    }
+
+    .clientsleft__title {
+        font-size: 25px;
+        line-height: 38px;
+        margin-bottom: -3px;
+    }
+
+    .clientsright__title {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .clientsleft__summary {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 8px;
+    }
+
+    .clientsright__title {
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 10px;
+    }
+
+    .accordion-button {
+        font-size: 13px;
+    }
+
+    .accordion-body {
+        font-size: 13px;
+    }
+
+    .faqleft {
+        text-align: center;
+    }
+
+    .faqleft__title {
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+
+    .faqleft__tag {
+        font-size: 14px;
+    }
+
+
+}

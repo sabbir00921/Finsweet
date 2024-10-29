@@ -1,0 +1,97 @@
+@media (max-width: 991.98px) {
+
+    :root {
+        --primary_background_color: #1C1E53;
+        --secondary_color: #2405F2;
+        --praimary_font_color: #282938;
+        --yellow_color: #FCD980;
+        --priamary_font: "Poppins", sans-serif;
+    }
+
+    .banner {
+        padding: 40px 0;
+    }
+
+    .bannersummary {
+        margin: 10px 0 48px 0;
+    }
+
+    .viewpricing {
+        margin: 20px 0px;
+    }
+
+    .workleft__link {
+        line-height: 0px;
+        padding-bottom: 31px;
+    }
+
+    .Customworkright {
+        margin-top: -49px !important; 
+    }
+
+    #projecpart {
+        padding: 40px 0;
+    }
+
+    #Features {
+        padding: 40px 0;
+    }
+
+    #clients {
+        padding: 40px 0;
+    }
+
+    .Featurestop__title {
+        font-size: 31px;
+    }
+
+    #clients {
+        padding: 40px 0;
+    }
+
+    .clientsright__title {
+        text-align-last: center;
+    }
+
+    #faq {
+        padding: 40px 0;
+    }
+
+    .faqleft__title {
+        width: 100%;
+    }
+
+    .faqleft__tag {
+        margin-bottom: 14px;
+    }
+
+    #building {
+        padding: 40px 0;
+    }
+
+    #Card {
+        padding: 40px 0;
+    }
+
+    .carditemsone {
+        row-gap: 5px;
+
+    }
+
+    .carditemsone__title {
+        font-size: 17px;
+    }
+
+    .carditemsone__details {
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+
+    .card__link {
+        margin-bottom: 20px;
+    }
+
+
+
+
+}

@@ -1,0 +1,59 @@
+@media (max-width: 767.98px) {
+    :root {
+        --primary_background_color: #1C1E53;
+        --secondary_color: #2405F2;
+        --praimary_font_color: #282938;
+        --yellow_color: #FCD980;
+        --priamary_font: "Poppins", sans-serif;
+    }
+    
+    .CustomNavItems {
+        text-align: center;
+        background: rgb(48, 48, 255);
+        margin: 5px 0;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+    }
+    .workleft {
+        width: 100%;
+        align-items: center;
+    }
+
+    .workleft__title {
+        line-height: 30px;
+    }
+
+    .projecttop__title {
+        font-size: 31px;
+    }
+
+    .workleft__link {
+        padding-bottom: 0;
+    }
+    .Customworkright {
+    margin-top: -20px;
+    }
+    .clientsright__title {
+        font-size: 23px;
+    }
+    .carditems {
+        row-gap: px;
+        align-items: center;
+    }
+    .Custominput {
+        margin-bottom: 15px;
+    }
+
+    .carditemsone__date {
+        font-size: 20px;
+    }
+    .carditemsone__title {
+        font-size: 22px;
+    }
+    .carditemsone__details {
+        font-size: 18px;
+    }
+    .carditemsone {
+        margin-bottom: 20px;
+    }
+}

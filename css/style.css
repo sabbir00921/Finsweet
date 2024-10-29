@@ -1,0 +1,568 @@
+/* =====================common css==================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+a,
+div,
+span,
+section,
+nav,
+footer,
+p,
+img,
+picture {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+:root {
+    --primary_background_color: #1C1E53;
+    --secondary_color: #2405F2;
+    --praimary_font_color: #282938;
+    --yellow_color: #FCD980;
+    --priamary_font: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--priamary_font);
+}
+
+/* =====================common css==================== */
+/* =====================Navbar css==================== */
+.CustomNav {
+    background-color: var(--primary_background_color);
+    padding: 30px 0;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    border: 1px dotted white;
+    box-shadow: none;
+}
+.CustomNavItems {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.CustomNavItems {
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.CustomNavItems:hover {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.CustomBtn {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border: rgba(244, 246, 252, 0.20) 2px solid;
+    border-radius: 41px;
+    background: transparent;
+    color: white;
+    margin-left: 70px;
+    transition: ease-in-out .2s;
+}
+
+.CustomBtn:hover {
+    background-color: white;
+    color: var(--primary_background_color);
+}
+
+/* =====================Navbar css==================== */
+/* =====================banner css==================== */
+.banner {
+    background-color: var(--primary_background_color);
+    padding: 120px 0;
+}
+
+.bannerleftcontent {
+    row-gap: 25px;
+}
+
+.bannertitle {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: white;
+}
+
+.bannersummary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin: 24px 0 48px 0;
+}
+
+.bannerbutton {
+    margin: 0;
+    background-color: var(--yellow_color);
+    font-size: 18px;
+    font-weight: 600;
+    color: #1B1C2B;
+}
+
+.viewpricing {
+    color: white;
+    cursor: pointer;
+}
+
+.viewpricing_icon {
+    color: white;
+    margin-left: 5px;
+}
+
+.viewpricing_icon:hover {
+    color: white;
+}
+
+/* =====================banner css==================== */
+/* =====================work css==================== */
+#workpart {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.workleft {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.workleft__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--praimary_font_color);
+}
+
+.Workleft__summary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.8);
+}
+
+.workleft__link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+    align-items: center;
+    line-height: 32px;
+}
+
+i [class="fa-light fa-arrow-right"] {
+    color: #2405F2;
+    margin-left: 10px;
+}
+
+.workritems {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.workritems__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.workritems__summary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.8);
+}
+
+/* =====================work css==================== */
+/* =====================project css==================== */
+#projecpart {
+    padding: 128px 0;
+}
+
+.projecttop__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--praimary_font_color);
+}
+
+.imageholdeer {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.overly {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 45%;
+    height: 100%;
+    left: -50%;
+    top: 0;
+    background: linear-gradient(rgba(28, 30, 83, 0.445), rgba(28, 30, 83, 0.733));
+    transition: ease-in-out 0.3s;
+}
+
+.imageholdeer:hover .overly {
+    left: 0;
+}
+
+.overly__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 10px;
+    height: 100%;
+    padding: 0 35px 76px 48px;
+}
+
+.overly__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+}
+
+.overly__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(234, 235, 241, 0.8);
+}
+
+.Customworklink {
+    color: rgba(255, 255, 0, 0.724);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Customworklink:hover {
+    color: rgba(255, 255, 0, 0.724);
+}
+
+.imageholder2 {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.overlytwo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -100%;
+    background: linear-gradient(rgba(28, 30, 83, 0.445), rgba(28, 30, 83, 0.733));
+    transition: ease-in-out .3s;
+}
+
+.imageholder2:hover .overlytwo {
+    bottom: 0;
+}
+
+.overly2__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    padding: 0 20px 10px 50px;
+}
+
+/* =====================project css==================== */
+/* =====================Features css==================== */
+#Features {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.Featurestop__head {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56);
+}
+
+.Featurestop__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--praimary_font_color);
+}
+
+.carditems {
+    padding: 58px 32px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    background: white;
+    border-radius: 5px;
+}
+
+.carditems__title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+
+.carditems__summary {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(40, 41, 56, .7);
+}
+
+/* =====================Features css==================== */
+/* =====================clients css==================== */
+#clients {
+    padding: 128px 0;
+}
+
+.clientsleft__title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.clientsleft__summary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(40, 41, 56, .7);
+}
+
+.clientsright__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.client_name {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline;
+}
+
+.client_designation {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* =====================clients css==================== */
+/* =====================faq css==================== */
+#faq {
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.faqleft__title {
+    width: 328px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 10px;
+}
+
+.faqleft__tag {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+    cursor: pointer;
+}
+
+/* =====================faq css==================== */
+/* =====================building css==================== */
+#building {
+    padding: 128px 0;
+}
+.buildingcontent{
+    background: #1C1E53;
+}
+.buildingleft {
+    position: relative;
+    padding: 96px 96px 260px 96px;
+    background-color: #BBBBCB;
+    background: url(../images/building/image.png);
+
+    z-index: 0;
+}
+
+.Buildingoverly {
+    position: absolute;
+    background-color: rgba(28, 30, 83, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../images/building/);
+}
+
+.buildingleftcontent {
+    z-index: 1;
+}
+
+.buildingleft__title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.buildingleft__summary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+}
+.btnbuildingright__btn{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.buildingright {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 96px 96px 48px 96px;
+    color: white;
+}
+
+.buildingright__Head {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.buildingright__summary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.buildingrightinput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.Custominput {
+    outline: none;
+    border: rgba(255, 255, 255, 0.5) solid .5px;
+    width: 100%;
+    padding: 18px 0;
+    padding-left: 32px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(244, 246, 252, 0.532);
+}
+.btnbuildingright__btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    border: none;
+    padding: 16px 0;
+    border-radius: 44px;
+    margin-top: 43px;
+    margin-bottom: 28px;
+    background-color: #FCD980;
+}
+.btnbuildingright__btn:hover{
+    background-color: #ecc051;
+}
+.buildingright__link {
+    text-align: center;
+    color: #ffffffa9;
+}
+.buildingright__link:hover{
+    color: #ffffff;
+}
+
+/* =====================building css==================== */
+/* =====================card css==================== */
+#Card{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.carditemsone{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carditemsone__date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.532);
+    margin-top: 24px;
+}
+.carditemsone__title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: black;
+}
+.carditemsone__details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(40, 41, 56, .7);
+    padding-right: 10px;
+    padding-bottom: 16px;
+}
+.card__link{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(0, 0, 0);
+}
+/* =====================card css==================== */
